@@ -1,38 +1,127 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/* App.js style  */
+.app--container {
+  width: 517px;
+  height: 890px;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px 10px;
+  background-color: black;
+}
+
+.app--container2 {
+  width: 317px;
+  margin: 20px auto;
+
+  border-radius: 10px;
+}
+/* main-js style  */
+.header--container {
+  border-top: #0288d1 solid 2px;
+}
+
+.main--container {
+  border-top: #0288d1 solid 2px;
+  background-color: black;
+}
+.main--h3 {
+  font-size: 30px;
+  margin: 15px 0px 0px 0px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main--h4 {
+  font-size: 18px;
+  margin-top: 0px;
+  color: #0288d1;
+  margin-bottom: 10px;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main--content {
+  line-height: 1.1em;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main--h {
+  font-size: 15px;
+  margin-top: 0px;
+  color: #0288d1;
+  margin-bottom: 10px;
+}
+.main--h4-2 {
+  display: block;
+  font-size: 8px;
+  color: lightblue;
+  text-align: center;
+}
+.main-btn {
+  width: 115px;
+  height: 35px;
   display: flex;
-  flex-direction: column;
+  border: none;
+  outline: none;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  border-radius: 6px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+.btn-mail {
+  background-color: white;
+  color: black;
+  display: flex;
+  margin-left: 22px;
+  padding: 5px 10px;
+}
+.btn-linkedIn {
+  background-color: #0288d1;
   color: white;
+  display: flex;
+  padding: 5px 10px;
+  margin-right: 22px;
 }
-
-.App-link {
-  color: #61dafb;
+.btn--logo {
+  height: 20px;
+  margin-left: 6px;
+  margin-right: 8px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn--class {
+  display: flex;
+  padding: 20px 10px;
+  justify-content: space-between;
+}
+.main--about {
+  width: 247px;
+  height: 225px;
+  padding: 10px;
+  margin: 7px auto 20px auto;
+  border: 2px solid white;
+  line-break: 1.08em;
+  overflow: hidden;
+}
+.main--about > p {
+  font-size: 10px;
+  word-spacing: 0.05em;
+}
+.footer--container {
+  width: 317px;
+  height: 64px;
+  border-top: #0288d1 solid 3px;
+  border-bottom: #0288d1 solid 3px;
+  padding: 3px;
+  margin-top: 3px;
+  justify-content: space-between;
+}
+.footer--img {
+  height: 40px;
+  filter: brightness(3);
+  margin: 5px;
+}
+.footer--item {
+  margin: 2px 55px;
 }
